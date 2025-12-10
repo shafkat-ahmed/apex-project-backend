@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bscic-budget-accounts-rest:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>bscic-budget-accounts-rest</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="bscic-loan-suit-api.war">
+      <element id="artifact" artifact-name="bscic-budget-accounts-rest:war exploded" />
+    </root>
+  </artifact>
+</component>
