@@ -7,13 +7,7 @@
     <list default="true" id="f6a4142e-78d4-41eb-bdab-47a7557e26df" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev-shaf.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev-shaf.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-loc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-loc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/apex/template/TemplateApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/apex/template/TemplateApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev-shaf.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev-shaf.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-loc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-loc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,40 +50,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.TemplateApplicationTests.executor": "Run",
-    "JUnit.TemplateApplicationTests.testCreateTask.executor": "Run",
-    "JUnit.TemplateApplicationTests.testGetTaskById.executor": "Run",
-    "JUnit.TemplateApplicationTests.testLogin.executor": "Run",
-    "JUnit.TemplateApplicationTests.testUpdateTask.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.TemplateApplication (1).executor": "Run",
-    "Spring Boot.TemplateApplication (2).executor": "Run",
-    "Spring Boot.TemplateApplication.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Practice_projects/apex-project-backend/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "66f6181bcb4cff4cd38fbc804a036db6",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.TemplateApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TemplateApplicationTests.testCreateTask.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TemplateApplicationTests.testGetTaskById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TemplateApplicationTests.testLogin.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TemplateApplicationTests.testUpdateTask.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.TemplateApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TemplateApplication (2).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.TemplateApplication.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Practice_projects/apex-project-backend/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;66f6181bcb4cff4cd38fbc804a036db6&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -258,7 +252,8 @@
       <workItem from="1765241453361" duration="20329000" />
       <workItem from="1765348302818" duration="9412000" />
       <workItem from="1765415356546" duration="3986000" />
-      <workItem from="1765431471020" duration="10768000" />
+      <workItem from="1765431471020" duration="10949000" />
+      <workItem from="1765474720248" duration="2816000" />
     </task>
     <servers />
   </component>

@@ -257,7 +257,7 @@
 	</repositories>
 
 	<build>
-		<finalName>bscic-loan-suit-api</finalName>
+		<finalName>Apex-Project</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
