@@ -8,6 +8,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
@@ -21,4 +22,9 @@ public class TaskDto {
     private String priority;
 
     private Long assigneeId;
+    private UserDTO assignee;
+
+    private UserDTO assignedBy;
+
+    private LocalDateTime lastUpdatedDateTime;
 }

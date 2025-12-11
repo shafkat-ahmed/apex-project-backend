@@ -4,7 +4,240 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6a4142e-78d4-41eb-bdab-47a7557e26df" name="Changes" comment="" />
+    <list default="true" id="f6a4142e-78d4-41eb-bdab-47a7557e26df" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apex/template/controller/task/TaskUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apex/template/controller/task/TaskUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apex/template/domain/dto/DashboardDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apex/template/domain/dto/DashboardDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apex/template/domain/dto/TaskDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apex/template/domain/dto/TaskDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apex/template/repository/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apex/template/repository/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apex/template/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apex/template/service/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apex/template/service/implementation/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apex/template/service/implementation/TaskServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apex/template/service/mapping/TaskMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apex/template/service/mapping/TaskMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api.war.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/application-loc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/TemplateApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/common/Constants$BudgetStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/common/Constants$BudgetType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/common/Constants$ChartOfAccountsSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/common/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/common/PageAttr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/common/exception/EntityNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/common/exception/NotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/common/exception/NullPasswordException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/common/exception/StorageException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/common/exception/StorageFileNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/common/exception/UserNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/common/security/CustomEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/common/security/SymfonySha512PasswordEncoder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/common/util/DateTimeUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/common/util/DateUtil$DateRangeType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/common/util/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/common/util/PasswordUtil$EncType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/common/util/PasswordUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/common/util/RedisTokenStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/common/util/RepositoryUtilityMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/config/AuditConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/config/AuthorizationServerConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/config/AuthorizationServerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/config/CorsFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/config/CustomTokenEnhancer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/config/ResourceServerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/config/StorageProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/controller/all/AllTokenController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/controller/all/FileUploadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/controller/budget/BudgetController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/Budget.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/ChartOfAccounts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/ChartOfAccountsSubType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/ChartOfAccountsType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/District.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/Division.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/ExpenseBudget.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/Image.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/IncomeBudget.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/Office.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/OfficeType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/Sequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/authentication/OAuthAccessToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/authentication/OauthRefreshToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/dto/BudgetDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/dto/DistrictDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/dto/DivisionDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/dto/ExpenseBudgetDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/dto/IncomeBudgetDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/dto/OfficeDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/dto/OfficeTypeDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/domain/dto/UserDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/repository/BudgetRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/repository/ChartOfAccountsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/repository/ChartOfAccountsSubTypeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/repository/ChartOfAccountsTypeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/repository/DistrictRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/repository/DivisionRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/repository/ExpenseBudgetRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/repository/ImageRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/repository/IncomeBudgetRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/repository/OfficeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/repository/OfficeTypeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/repository/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/repository/SequenceRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/BudgetService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/CustomUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/DataLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/DtoGenericCrudService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/EntityGenericCrudService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/FileSystemStorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/ImageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/RoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/SequenceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/StorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/implementation/BudgetServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/implementation/ImageServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/implementation/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/implementation/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/mapping/BudgetMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/mapping/DistrictMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/mapping/DivisionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/mapping/ExpenseBudgetMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/mapping/IncomeBudgetMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/mapping/OfficeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/mapping/OfficeTypeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/com/sweetitech/template/service/mapping/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/HikariCP-2.7.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/activation-1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/aspectjweaver-1.8.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/attoparser-2.0.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/barcodes-7.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/commons-codec-1.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/commons-io-2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/commons-lang3-3.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/commons-pool2-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/dom4j-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/evo-inflector-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/font-asian-7.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/forms-7.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/hibernate-core-5.2.17.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/hibernate-envers-5.2.17.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/hibernate-validator-6.0.10.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/hyph-7.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/io-7.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/itextpdf-5.5.13.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/jackson-core-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/jackson-core-asl-1.9.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/jackson-databind-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/jackson-datatype-jdk8-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/jackson-datatype-jsr310-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/jackson-module-parameter-names-2.9.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/jandex-2.0.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/javassist-3.22.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/javax.mail-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/javax.transaction-api-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/jedis-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/kernel-7.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/layout-7.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/lettuce-core-6.1.4.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/log4j-api-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/log4j-to-slf4j-2.10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/modelmapper-2.3.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/mysql-connector-java-5.1.46.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/netty-buffer-4.1.25.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/netty-codec-4.1.25.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/netty-common-4.1.25.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/netty-handler-4.1.25.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/netty-resolver-4.1.25.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/netty-transport-4.1.25.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/pdfa-7.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/poi-3.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/poi-ooxml-3.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/poi-ooxml-schemas-3.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/reactive-streams-1.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/reactor-core-3.1.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/sign-7.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/slf4j-api-1.7.25.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/snakeyaml-1.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-aop-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-aspects-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-beans-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-boot-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-boot-autoconfigure-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-boot-starter-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-boot-starter-aop-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-boot-starter-data-jpa-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-boot-starter-data-rest-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-boot-starter-jdbc-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-boot-starter-json-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-boot-starter-logging-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-boot-starter-mail-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-boot-starter-security-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-boot-starter-thymeleaf-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-boot-starter-tomcat-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-boot-starter-web-2.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-context-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-context-support-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-core-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-data-commons-2.0.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-data-jpa-2.0.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-data-keyvalue-2.0.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-data-redis-2.0.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-data-rest-core-3.0.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-data-rest-hal-browser-3.0.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-data-rest-webmvc-3.0.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-expression-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-hateoas-0.24.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-jcl-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-jdbc-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-orm-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-oxm-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-security-config-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-security-core-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-security-oauth2-2.0.13.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-security-web-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-tx-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-web-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/spring-webmvc-5.0.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/stax-api-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/swagger-annotations-1.5.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/thymeleaf-3.0.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/thymeleaf-extras-java8time-3.0.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/thymeleaf-spring5-3.0.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/tomcat-embed-core-8.5.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/tomcat-embed-el-8.5.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/tomcat-embed-websocket-8.5.31.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/unbescape-1.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/bscic-loan-suit-api/WEB-INF/lib/xmlbeans-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/apex/template/controller/task/TaskUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apex/template/controller/task/TaskUserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/apex/template/domain/dto/DashboardDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apex/template/domain/dto/DashboardDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/apex/template/domain/dto/TaskDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apex/template/domain/dto/TaskDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/apex/template/repository/TaskRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apex/template/repository/TaskRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/apex/template/service/implementation/TaskServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apex/template/service/implementation/TaskServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/apex/template/service/mapping/TaskMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/apex/template/service/mapping/TaskMapper.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,35 +279,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.TemplateApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.TemplateApplication (2).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.TemplateApplication.executor&quot;: &quot;Run&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;&lt;unknown&gt;&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Practice_projects/apex-project-backend/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;66f6181bcb4cff4cd38fbc804a036db6&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.TemplateApplication (1).executor": "Run",
+    "Spring Boot.TemplateApplication (2).executor": "Run",
+    "Spring Boot.TemplateApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Practice_projects/apex-project-backend/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "spring.configuration.checksum": "66f6181bcb4cff4cd38fbc804a036db6",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Practice_projects\apex-project-backend\src\main\resources" />
@@ -171,7 +404,8 @@
       <workItem from="1764867025577" duration="37303000" />
       <workItem from="1765086078851" duration="23702000" />
       <workItem from="1765241453361" duration="20329000" />
-      <workItem from="1765348302818" duration="5574000" />
+      <workItem from="1765348302818" duration="9412000" />
+      <workItem from="1765415356546" duration="3498000" />
     </task>
     <servers />
   </component>

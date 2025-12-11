@@ -6,6 +6,7 @@ import com.apex.template.domain.dto.DashboardDto;
 import com.apex.template.domain.dto.PageableResponseDto;
 import com.apex.template.domain.dto.TaskDto;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 public interface TaskService extends  EntityGenericCrudService<Task>,
@@ -22,4 +23,5 @@ DtoGenericCrudService<TaskDto>{
                                                            String keyword, Integer pageNumber, Integer pageLength) throws Exception;
 
     DashboardDto getDashboardData() throws Exception;
+    List<TaskDto> recentlyUpdatedTasks(LocalDateTime toDate, String sortType) throws Exception;
 }

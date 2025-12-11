@@ -1,5 +1,6 @@
 package com.apex.template.service.implementation;
 
+import com.apex.template.common.Constants;
 import com.apex.template.common.enums.TaskPriority;
 import com.apex.template.common.enums.TaskStatus;
 import com.apex.template.domain.BaseEntity;
@@ -22,7 +23,10 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import javax.persistence.criteria.Predicate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -264,7 +268,31 @@ public class TaskServiceImpl implements TaskService {
         dashboardDto.setCompletedTasks(taskRepository.countAllByStatusAndCreatedByLogIdAndIsDeletedFalse(
                 TaskStatus.COMPLETED,user.getId()
         ));
+
+        if(user.getRole().getName().equals(Constants.Role.USER)) {
+            dashboardDto.setTotalAssignedTasks(taskRepository.countAllByAssignee_IdAndIsDeletedFalse(user.getId()));
+            dashboardDto.setPendingAssignedTasks(taskRepository.countAllByStatusAndAssignee_IdAndIsDeletedFalse
+                    (TaskStatus.NEW,user.getId()));
+            dashboardDto.setOngoingAssignedTasks(taskRepository.countAllByStatusAndAssignee_IdAndIsDeletedFalse
+                    (TaskStatus.IN_PROGRESS,user.getId()));
+            dashboardDto.setCompletedAssignedTasks(taskRepository.countAllByStatusAndAssignee_IdAndIsDeletedFalse
+                    (TaskStatus.COMPLETED,user.getId()));
+        }
+
         return dashboardDto;
+    }
+
+    @Override
+    public List<TaskDto> recentlyUpdatedTasks(LocalDateTime toDate, String sortType) throws Exception {
+        LocalDateTime fromDate = toDate.minusDays(2);
+        User currentUser = userService.getCurrentLoggedUser();
+
+        List<Task> tasks = sortType.equals("desc")?
+                taskRepository.findAllByLastUpdatedDateTimeDesc(fromDate,toDate,currentUser.getId())
+                :
+                taskRepository.findAllByLastUpdatedDateTimeAsc(fromDate,toDate,currentUser.getId());
+
+        return tasks.stream().map(taskMapper.responseMapper).collect(Collectors.toList());
     }
 
 }

@@ -21,6 +21,7 @@ public class TaskMapper {
 
     private final TaskRepository taskRepository;
     private final UserRepository userRepository;
+    private final UserMapper userMapper;
 
     public Function<TaskDto, Task> requestMapper = this::entity;
     public Function<Task, TaskDto> responseMapper = this::dto;
@@ -72,8 +73,13 @@ public class TaskMapper {
         }
 
         if (entity.getAssignee() != null) {
-            dto.setAssigneeId(entity.getAssignee().getId());
+//            dto.setAssigneeId(entity.getAssignee().getId());
+            dto.setAssignee(userMapper.responseMapper.apply(entity.getAssignee()));
+            dto.setAssignedBy(userMapper.responseMapper.apply(RepositoryUtilityMethod.getObject(entity.getCreatedByLogId(),
+                    userRepository)));
         }
+
+        dto.setLastUpdatedDateTime(entity.getLastUpdatedDateTime());
 
         return dto;
     }

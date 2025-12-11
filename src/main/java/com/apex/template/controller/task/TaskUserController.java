@@ -9,6 +9,9 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDateTime;
+import java.util.List;
+
 @RestController
 @RequestMapping("/api/task")
 @RequiredArgsConstructor
@@ -78,6 +81,16 @@ public class TaskUserController {
         );
     }
 
+    @GetMapping("/by/recent/update/sortable")
+    public ResponseEntity<List<TaskDto>> getRecentlyUpdatedTasks(
+            @RequestParam(required = true) String toDate,
+            @RequestParam(required = true) String sortType
+    ) throws Exception {
+        return ResponseEntity.ok(
+                taskService.recentlyUpdatedTasks(LocalDateTime.parse(toDate), sortType)
+        );
+    }
+
     // -----------------------------
     //   PAGINATED ASSIGNED TASKS
     // -----------------------------
@@ -103,6 +116,7 @@ public class TaskUserController {
     public ResponseEntity<TaskDto> updateStatusToNext(@PathVariable Long id) throws Exception {
         return ResponseEntity.ok(taskService.updateStatusToNext(id));
     }
+
 
     // -----------------------------
     //        DASHBOARD DATA
