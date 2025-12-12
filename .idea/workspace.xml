@@ -6,8 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="f6a4142e-78d4-41eb-bdab-47a7557e26df" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apex/template/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apex/template/config/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apex/template/controller/task/TaskUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apex/template/controller/task/TaskUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apex/template/controller/test/TestAdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apex/template/domain/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/apex/template/domain/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apex/template/domain/dto/DistrictDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apex/template/domain/dto/DivisionDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apex/template/domain/dto/OfficeDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/apex/template/domain/dto/OfficeTypeDto.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

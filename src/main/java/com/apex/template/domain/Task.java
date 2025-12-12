@@ -21,6 +21,8 @@ import java.time.LocalDate;
 public class Task extends BaseEntity {
     @NotNull
     private String title;
+    @Lob
+    @Column(columnDefinition = "LONGTEXT")
     private String description;
     @NotNull
     private LocalDate startDate,dueDate;

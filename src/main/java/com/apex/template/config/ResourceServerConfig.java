@@ -30,7 +30,7 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
                 .authorizeRequests()
                 .antMatchers("/oauth/token").permitAll()
                 .antMatchers("/all/**").permitAll()
-                .antMatchers("/api/admin/**").hasAnyRole("ADMIN","SUPER_ADMIN","MANAGER")
+                .antMatchers("/api/admin/**").hasAnyRole("ADMIN","SUPER_ADMIN")
                 .antMatchers("/api/manager/**").hasAnyRole("MANAGER")
                 .antMatchers("/api/**").authenticated();
     }

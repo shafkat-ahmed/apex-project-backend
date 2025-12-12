@@ -81,16 +81,6 @@ public class TaskUserController {
         );
     }
 
-    @GetMapping("/by/recent/update/sortable")
-    public ResponseEntity<List<TaskDto>> getRecentlyUpdatedTasks(
-            @RequestParam(required = true) String toDate,
-            @RequestParam(required = true) String sortType
-    ) throws Exception {
-        return ResponseEntity.ok(
-                taskService.recentlyUpdatedTasks(LocalDateTime.parse(toDate), sortType)
-        );
-    }
-
     // -----------------------------
     //   PAGINATED ASSIGNED TASKS
     // -----------------------------
@@ -124,6 +114,16 @@ public class TaskUserController {
     @GetMapping("/dashboard")
     public ResponseEntity<DashboardDto> getDashboardData() throws Exception {
         return ResponseEntity.ok(taskService.getDashboardData());
+    }
+
+    @GetMapping("/by/recent/update/sortable")
+    public ResponseEntity<List<TaskDto>> getRecentlyUpdatedTasks(
+            @RequestParam(required = true) String toDate,
+            @RequestParam(required = true) String sortType
+    ) throws Exception {
+        return ResponseEntity.ok(
+                taskService.recentlyUpdatedTasks(LocalDateTime.parse(toDate), sortType)
+        );
     }
 }
 
